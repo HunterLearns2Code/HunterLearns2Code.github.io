@@ -6,19 +6,19 @@ body, h1, h2, p, ul, li {
 
 /* Basic styling for the header */
 header {
-    background-color: white; /* Header background color is white */
-    color: #333; /* Text color for the header */
+    background-color: #222; /* Darker gray for the header background */
+    color: #87CEEB; /* Text color for the header is dark gray */
     text-align: center;
     padding: 20px;
 }
 
 /* Basic styling for the navigation menu */
 nav {
-    background-color: #87CEEB; /* Light greenish blue for the navigation menu */
-    color: #fff; /* Text color for navigation links */
+    background-color: white; /* Black for the navigation menu */
+    color: #87CEEB; /* Text color for navigation links */
     text-align: center;
     padding: 10px;
-    border: 2px solid #333;
+    border: 2px solid #87CEEB; /* Border color for the navigation menu options */
 }
 
 nav ul {
@@ -33,15 +33,15 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #fff;
-    border: 2px solid #333;
+    color: #87CEEB;
+    border: 2px solid #87CEEB; /* Set border color to white */
     padding: 5px 15px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s; /* Transition background color and text color on hover */
 }
 
 nav a:hover {
-    background-color: #555; /* Darker gray on hover */
-    color: #fff; /* White on hover */
+    background-color: white; /* Set background color to white on hover */
+    color: #555; /* Change text color on hover to dark gray */
 }
 
 /* Main content area */
@@ -61,10 +61,23 @@ body {
     line-height: 1.6;
     text-align: left;
 }
+.info-box {
+    border: 5px solid #87CEEB; /* Soft blue border */
+    padding: 20px;
+    background-color: white; /* Background color inside the box */
+    text-align: center;
+    margin: 20px 0;
+}
+
+.info-box p {
+    font-size: 25px; /* Adjust the font size as needed */
+}
 
 /* Page title style */
 h1 {
-    font-size: 36px;
+    font-size: 48px; /* Increased font size */
+    font-weight: bold; /* Make the font bold */
+    color: white; /* Set text color to white */
 }
 
 /* Navigation links style */
@@ -75,8 +88,9 @@ ul, li, a {
 /* Style the header link */
 .header-link {
     text-decoration: none; /* Remove underlining */
-    color: #333; /* Choose your desired text color */
-    font-size: 36px; /* Adjust the font size as needed */
+    color: #87CEEB; /* Set text color to white */
+    font-size: 48px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the font bold */
 }
 
 .header-link:hover {
