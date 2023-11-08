@@ -21,21 +21,18 @@ nav {
     border: 2px solid #333;
 }
 
-/* Add a specific class to the centered "Home" button */
 nav ul {
     list-style-type: none;
     text-align: center; /* Center-align the entire navigation menu */
 }
 
+/* Centered "Home" button style */
 .center {
     margin: 0 auto; /* Center-align the "Home" button */
     font-size: 20px; /* Make the "Home" button slightly larger */
     border: 2px solid #333;
     padding: 10px 30px; /* Increase padding for the "Home" button */
 }
-
-/* Other styles (as before) */
-/* ... */
 
 nav li {
     display: inline;
@@ -50,11 +47,9 @@ nav a {
     transition: background-color 0.3s;
 }
 
-/* Change the background color to a different shade and text color to white on hover */
 nav a:hover {
-    background-color: #555; /* Darker gray */
-    color: #fff; /* White */
-}
+    background-color: #555; /* Darker gray on hover */
+    color: #fff; /* White on hover */
 }
 
 /* Main content area */
@@ -80,7 +75,7 @@ h1 {
     font-size: 36px;
 }
 
-/* Navigation links */
+/* Navigation links style */
 ul, li, a {
     font-size: 18px;
 }
