@@ -21,9 +21,21 @@ nav {
     border: 2px solid #333;
 }
 
+/* Add a specific class to the centered "Home" button */
 nav ul {
     list-style-type: none;
+    text-align: center; /* Center-align the entire navigation menu */
 }
+
+.center {
+    margin: 0 auto; /* Center-align the "Home" button */
+    font-size: 20px; /* Make the "Home" button slightly larger */
+    border: 2px solid #333;
+    padding: 10px 30px; /* Increase padding for the "Home" button */
+}
+
+/* Other styles (as before) */
+/* ... */
 
 nav li {
     display: inline;
