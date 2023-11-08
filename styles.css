@@ -71,3 +71,14 @@ h1 {
 ul, li, a {
     font-size: 18px;
 }
+
+/* Style the header link */
+.header-link {
+    text-decoration: none; /* Remove underlining */
+    color: #333; /* Choose your desired text color */
+    font-size: 36px; /* Adjust the font size as needed */
+}
+
+.header-link:hover {
+    color: #555; /* Change text color on hover */
+}
