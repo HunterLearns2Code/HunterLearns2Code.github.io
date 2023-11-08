@@ -6,16 +6,16 @@ body, h1, h2, p, ul, li {
 
 /* Basic styling for the header */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: white; /* Header background color is white */
+    color: #333; /* Text color for the header */
     text-align: center;
     padding: 20px;
 }
 
 /* Basic styling for the navigation menu */
 nav {
-    background-color: #444;
-    color: #fff;
+    background-color: #87CEEB; /* Light greenish blue for the navigation menu */
+    color: #fff; /* Text color for navigation links */
     text-align: center;
     padding: 10px;
     border: 2px solid #333;
