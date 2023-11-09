@@ -23,6 +23,7 @@ nav {
 
 nav ul {
     list-style-type: none;
+	padding: 0;
     text-align: center; /* Center-align the entire navigation menu */
 }
 
