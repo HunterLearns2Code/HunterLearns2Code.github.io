@@ -54,6 +54,29 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	border: 5px solid #87CEEB; /* Add a border to the main content with the soft blue color */
 }
+/* CSS for styling the notepad page */
+.notepad-container {
+    text-align: center;
+    padding: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    resize: none;
+}
+
+#save-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
 
 /* Global text styles */
 body {
