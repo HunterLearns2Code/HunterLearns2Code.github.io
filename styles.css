@@ -1,30 +1,30 @@
-/* Reset default margin and padding */
+
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
-/* Basic styling for the header */
+
 header {
-    background-color: #222; /* Darker gray for the header background */
-    color: #87CEEB; /* Text color for the header is dark gray */
+    background-color: #222; 
+    color: #87CEEB; 
     text-align: center;
     padding: 20px;
 }
 
-/* Basic styling for the navigation menu */
+
 nav {
-    background-color: #222; /* Black for the navigation menu */
-    color: white; /* Text color for navigation links */
+    background-color: #222; 
+    color: white; 
     text-align: center;
     padding: 10px;
-    border: 2px solid #87CEEB; /* Border color for the navigation menu options */
+    border: 2px solid #87CEEB; 
 }
 
 nav ul {
     list-style-type: none;
 	padding: 0;
-    text-align: center; /* Center-align the entire navigation menu */
+    text-align: center; 
 }
 
 nav li {
@@ -35,26 +35,26 @@ nav li {
 nav a {
     text-decoration: none;
     color: white;
-    border: 2px solid #87CEEB; /* Set border color to white */
+    border: 2px solid #87CEEB; 
     padding: 5px 15px;
-    transition: background-color 0.3s, color 0.3s; /* Transition background color and text color on hover */
+    transition: background-color 0.3s, color 0.3s; 
 }
 
 nav a:hover {
-    background-color: white; /* Set background color to white on hover */
-    color: #555; /* Change text color on hover to dark gray */
+    background-color: white; 
+    color: #555; 
 }
 
-/* Main content area */
+
 main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	border: 5px solid #87CEEB; /* Add a border to the main content with the soft blue color */
+	border: 5px solid #87CEEB; 
 }
-/* CSS for styling the notepad page */
+
 .notepad-container {
     text-align: center;
     padding: 20px;
@@ -78,7 +78,7 @@ textarea {
     font-size: 16px;
 }
 
-/* Global text styles */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
@@ -87,19 +87,19 @@ body {
     text-align: left;
 }
 .info-box {
-    border: 3px solid #87CEEB; /* Soft blue border */
+    border: 3px solid #87CEEB; 
     padding: 20px;
-    background-color: white; /* Background color inside the box */
+    background-color: white; 
     text-align: center;
     margin: 20px 0;
 }
 
 .info-box p {
-    font-size: 25px; /* Adjust the font size as needed */
+    font-size: 25px; 
 }
 .content {
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Vertically center align items */
+    display: flex; 
+    align-items: center; 
 }
 .clock-container {
     text-align: center;
@@ -111,30 +111,29 @@ body {
 }
 
 .content img {
-    max-width: 50%; /* Adjust the width of the image as needed */
-    padding: 20px; /* Add padding for spacing */
+    max-width: 50%; 
+    padding: 20px; 
 }
 
-/* Page title style */
+
 h1 {
-    font-size: 48px; /* Increased font size */
-    font-weight: bold; /* Make the font bold */
-    color: white; /* Set text color to white */
-}
+    font-size: 48px; 
+    font-weight: bold; 
+    color: white; 
 
-/* Navigation links style */
+
 ul, li, a {
     font-size: 18px;
 }
 
-/* Style the header link */
+
 .header-link {
-    text-decoration: none; /* Remove underlining */
-    color: #87CEEB; /* Set text color to white */
-    font-size: 48px; /* Adjust the font size as needed */
-    font-weight: bold; /* Make the font bold */
+    text-decoration: none; 
+    color: #87CEEB; 
+    font-size: 48px; 
+    font-weight: bold; 
 }
 
 .header-link:hover {
-    color: #555; /* Change text color on hover */
+    color: #555; 
 }
