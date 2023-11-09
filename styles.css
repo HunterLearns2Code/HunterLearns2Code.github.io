@@ -14,8 +14,8 @@ header {
 
 /* Basic styling for the navigation menu */
 nav {
-    background-color: white; /* Black for the navigation menu */
-    color: #87CEEB; /* Text color for navigation links */
+    background-color: #222; /* Black for the navigation menu */
+    color: white; /* Text color for navigation links */
     text-align: center;
     padding: 10px;
     border: 2px solid #87CEEB; /* Border color for the navigation menu options */
@@ -33,7 +33,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #87CEEB;
+    color: white;
     border: 2px solid #87CEEB; /* Set border color to white */
     padding: 5px 15px;
     transition: background-color 0.3s, color 0.3s; /* Transition background color and text color on hover */
@@ -51,6 +51,7 @@ main {
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border: 5px solid #87CEEB; /* Add a border to the main content with the soft blue color */
 }
 
 /* Global text styles */
@@ -62,7 +63,7 @@ body {
     text-align: left;
 }
 .info-box {
-    border: 5px solid #87CEEB; /* Soft blue border */
+    border: 3px solid #87CEEB; /* Soft blue border */
     padding: 20px;
     background-color: white; /* Background color inside the box */
     text-align: center;
@@ -71,6 +72,15 @@ body {
 
 .info-box p {
     font-size: 25px; /* Adjust the font size as needed */
+}
+.content {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center align items */
+}
+
+.content img {
+    max-width: 50%; /* Adjust the width of the image as needed */
+    padding: 20px; /* Add padding for spacing */
 }
 
 /* Page title style */
