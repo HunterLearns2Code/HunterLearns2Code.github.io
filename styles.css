@@ -101,6 +101,14 @@ body {
     display: flex; /* Use flexbox for layout */
     align-items: center; /* Vertically center align items */
 }
+.clock-container {
+    text-align: center;
+    padding: 20px;
+}
+
+#clock {
+    font-size: 48px;
+}
 
 .content img {
     max-width: 50%; /* Adjust the width of the image as needed */
